@@ -15,5 +15,5 @@
 - Create an App and give it a name
 - In the Deploy Section Connect to git hub and find the Repo you have forked
 - I have already included a Procfile so in the Resource section you should see this:
-<img src="https://imgur.com/a/uKYVy3Y" />
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/uKYVy3Y"><a href="//imgur.com/a/uKYVy3Y"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 - If not Wait a while or Close the Page and Reload it
