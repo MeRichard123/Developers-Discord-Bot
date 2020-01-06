@@ -15,5 +15,5 @@
 - Create an App and give it a name
 - In the Deploy Section Connect to git hub and find the Repo you have forked
 - I have already included a Procfile so in the Resource section you should see this:
-![Image]()
+![Image](https://github.com/MeRichard123/Developers-Discord-Bot/blob/master/screen.png?raw=true)
 - If not Wait a while or Close the Page and Reload it
