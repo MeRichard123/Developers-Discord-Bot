@@ -15,5 +15,5 @@
 - Create an App and give it a name
 - In the Deploy Section Connect to git hub and find the Repo you have forked
 - I have already included a Procfile so in the Resource section you should see this:
-![This is what you should see](https://imgur.com/a/uKYVy3Y)
+<img src="https://imgur.com/a/uKYVy3Y" />
 - If not Wait a while or Close the Page and Reload it
