@@ -14,3 +14,6 @@
 - Log on to [Heroku](https://dashboard.heroku.com/)
 - Create an App and give it a name
 - In the Deploy Section Connect to git hub and find the Repo you have forked
+- I have already included a Procfile so in the Resource section you should see this:
+![This is what you should see](https://onedrive.live.com/?cid=FC86EBDAE4973681&id=FC86EBDAE4973681%211510&parId=FC86EBDAE4973681%21728&o=OneUp)
+- If not Wait a while or Close the Page and Reload it
