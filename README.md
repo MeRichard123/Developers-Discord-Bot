@@ -17,3 +17,7 @@
 - I have already included a Procfile so in the Resource section you should see this:
 ![Image](https://github.com/MeRichard123/Developers-Discord-Bot/blob/master/screen.png?raw=true)
 - If not Wait a while or Close the Page and Reload it
+- Click the pencil next to the selected one and turn it off
+- Click the pencil next to the deselected one and turn it on
+- In Setting > Reveal Config Vars add a key of 'token' and a 'value' of the token you copied from discord
+- You should be all set
