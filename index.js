@@ -13,7 +13,11 @@ const white = 0xdfe6e9;
 bot.on("ready", () => {
   console.log("this bot is online");
 });
-
+bot.on("message", message =>{
+  if(message.isMemberMentioned(bot.user)){
+    message.reply("Hey!! How are you?")
+  }
+})
 bot.on("message", message => {
   const args = message.content
     .slice(prefix.length)
@@ -64,7 +68,7 @@ bot.on("message", message => {
       message.channel.send("https://vuejs.org/v2/guide/");
     } else if (
       args[0] === "vb" ||
-      args[0] == "vb.net" ||
+      args[0] == "vb net" ||
       args[0] === "visual basics"
     ) {
       message.channel.send(
