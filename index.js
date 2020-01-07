@@ -87,7 +87,7 @@ bot.on("message", message => {
         .addField("Check Spelling", "Have you spelled the language correctly")
         .addField(
           "No Language was found",
-          "Or Request a change if you belive a language is missing"
+          "Or Request a change if you believe a language is missing"
         )
         .addField("Usage", `${prefix}docs [Language]`)
         .setThumbnail(
