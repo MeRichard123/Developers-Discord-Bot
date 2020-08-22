@@ -13,16 +13,13 @@ const white = 0xdfe6e9;
 bot.on("ready", () => {
   console.log("this bot is online");
 });
-bot.on("message", message =>{
-  if(message.isMemberMentioned(bot.user)){
-    message.reply("Hey!! How are you?")
+bot.on("message", (message) => {
+  if (message.isMemberMentioned(bot.user)) {
+    message.reply("Hey!! How are you?");
   }
-})
-bot.on("message", message => {
-  const args = message.content
-    .slice(prefix.length)
-    .trim()
-    .split(/ +/g);
+});
+bot.on("message", (message) => {
+  const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
   if (!message.content.startsWith(prefix)) {
     return;
@@ -100,7 +97,7 @@ bot.on("message", message => {
   if (command === "help") {
     const Help = new Discord.RichEmbed();
     Help.setTitle("List of Commands:")
-      .addField("$docs [lang]", "Get the documetation of a specified language")
+      .addField("$docs [lang]", "Get the documentation of a specified language")
       .addField("$help", "Show a List of Commands")
       .setColor(blue)
       .setThumbnail(
